@@ -1,10 +1,12 @@
-\documentclass[letter,10pt]{article}
+\documentclass[letterpaper,10pt]{article}
 \usepackage{geometry}
 \geometry{margin=1in}
 \usepackage{enumitem}
 \usepackage{titlesec,lipsum}
 \usepackage{hyperref}
+\usepackage{bookmark}
 \usepackage{paracol}
+\usepackage{multicol}
 
 \hypersetup{
     colorlinks=true,
@@ -25,8 +27,8 @@
     \href{mailto:emmanuel.walker@example.com}{emmanuel.walker@example.com} \hfill
     \href{tel:+1234567890}{+1 234 567 890} \hfill
     \href{https://www.linkedin.com/in/emmanuelwalker}{linkedin.com/in/emmanuelwalker} \\
-    \vspace{4mm}
-       {\phantomsection{Systems Engineer}}\\
+    \vspace{2mm}
+       {\phantomsection{\LARGE {Systems Engineer}}}\\
    
 \end{center}
 
@@ -41,33 +43,51 @@ and regression testing, as well as requirements verification and validation.
 \section*{Experience}
 
 \subsection*{Test Engineer}
-\textit{Northrop Grumman.} \hfill \textbf{8 Months}
+\textit{Northrop Grumman} \hfill \textbf{8 months}\\\vspace{2mm}
+\sloppy
 Took on the role of Test Engineer to develop and execute test plans for system verification and validation. \\
-\begin{itemize}[leftmargin=0.15in]
+\begin{itemize}[leftmargin=0.10in]
     \item Designed test procedure for PCB circuit assembly.
     \item Conducted system verification analyses to validate across customer specification requirements
     \item Ensured compliance with industry standards such as ISO 27001, NIST, and GDPR.
 \end{itemize}
 
 \subsection*{Systems Engineer}
-\textit{Northrop Grumman} \hfill \textbf{1 year 3 Months}\\
+\textit{Northrop Grumman} \hfill \textbf{1 year 3 months}\\\vspace{2mm}
+\sloppy
 Utilized critical thinking to analyze problems, evaluate solutions, and make informed decisions as an Associate System Engineer in Testing. \\
-\begin{itemize}[leftmargin=0.15in]
+\begin{itemize}[leftmargin=0.10in]
     \item Led a team of engineers to develop hardware tests and full systems tests on deployed on Linux and Windows OS's.
     \item Developed and maintained test scenarios and procedures for security testing and auditing.
     \item Implemented encryption and access control mechanisms to protect sensitive data.
     \item Collaborated with Engineering teams to integrate security measures into system test procedure.
 \end{itemize}
 
+\subsection*{Associate Systems Administrator}
+\textit{Inpriva, Inc} \hfill \textbf{1 year 1 month}\\ \vspace{2mm}
+\sloppy
+Began working part-time as a help-desk intern during fall of my final year of my bachelors. 
+Then was brought on full-time to contribute to the systems development team. \\
+\begin{itemize}[leftmargin=0.10in]
+    \item Utilized SPLUNK SIEM to monitor and analyze system logs for security threats as well as, create dashboards for system performance with SplunkQL.
+    \item Maintained Active Directory, DNS, DHCP, Group Policy Objects, and Ngnix Server with Linux OS for web hosting.
+    \item Analyzed, communicated, and resolved technical issues for internal and external customers.
+\end{itemize}
+
 
 \end{leftcolumn}
 \begin{rightcolumn}
 
+\section*{Certifications}
+\begin{itemize}[leftmargin=0.15in]
+    \item Security + (CompTIA)
+\end{itemize}
 \section*{Skills}
-\subsection*{Technical Skills}
+\begin{multicols}{2}
+    \subsection*{Technical Skills}
 \begin{itemize}
     \item Test Methodologies
-    \item Test Scripts Development and Execution 
+    \item Test Scripts 
     \item Manual Testing
     \item Functional Testing
 \end{itemize}
@@ -76,15 +96,28 @@ Utilized critical thinking to analyze problems, evaluate solutions, and make inf
 \begin{itemize}
     \item Problem Solving
     \item Communication
-    \item Team Leadership
+    \item Organization
     \item Time Management
 \end{itemize}
 
-\section*{Certifications}
-\begin{itemize}[leftmargin=0.15in]
-    \item Security + (CompTIA)
-\end{itemize}
+\end{multicols}
 
+\section*{Relevant Coursework}
+\begin{itemize}[leftmargin=0.15in]
+    \item Data Structures and Algorithms
+    \item Database Management Systems
+    \item Network Security
+    \item Software Engineering
+    \item Information Systems Analysis and Design
+\end{itemize}
+\section*{Additional Experience}
+\subsection*{Financial Services Representative}
+\textit{Aston Carter} \hfill \textbf{1 year 1 month}\\ \vspace{2mm}
+\sloppy
+\begin{itemize}[leftmargin=0.10in]
+    \item Facilitated services pertaing to 529 college savings plans, retirement accounts, and life insurance while working towards SIE License.
+    \item Analyzed and communicated financial information to clients to help them make informed decisions.
+\end{itemize}
 \end{rightcolumn}
 \end{paracol}
 

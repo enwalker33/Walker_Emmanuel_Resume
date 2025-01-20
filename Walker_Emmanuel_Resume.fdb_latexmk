@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737333023.5034 "/Users/enwalker/THEEEMMANUELWALKERRUSME/Walker_Emmanuel_Resume/Walker_Emmanuel_Resume.tex" "Walker_Emmanuel_Resume.pdf" "Walker_Emmanuel_Resume" 1737333025.54522 0
-  "/Users/enwalker/THEEEMMANUELWALKERRUSME/Walker_Emmanuel_Resume/Walker_Emmanuel_Resume.tex" 1737333023.03113 3365 81cfd10256b7e445764678c7517ba23c ""
+["pdflatex"] 1737396873.71058 "/Users/enwalker/THEEEMMANUELWALKERRUSME/Walker_Emmanuel_Resume/Walker_Emmanuel_Resume.tex" "Walker_Emmanuel_Resume.pdf" "Walker_Emmanuel_Resume" 1737396875.78795 0
+  "/Users/enwalker/THEEEMMANUELWALKERRUSME/Walker_Emmanuel_Resume/Walker_Emmanuel_Resume.tex" 1737396873.07496 4922 684b5ec4b85c05567dc479bf9820699b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -14,6 +14,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -36,6 +37,8 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1705352648 3045 273c666a54e60b9f730964f431a56c1b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1705352648 2462 6bc53756156dbd71c1ad550d30a3b93f ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1702241854 8818 aa5157b46368efebf023abff55611467 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty" 1702241854 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -61,17 +64,16 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty" 1698436711 48766 0b93839be28e9744a24c45075c75b2e2 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty" 1686341992 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737246351.2899 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737246169 8221423 e110985e685d13065e02dd58f4b80c39 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Walker_Emmanuel_Resume.aux" 1737333025.36639 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "Walker_Emmanuel_Resume.out" 1737333024.68986 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Walker_Emmanuel_Resume.tex" 1737333023.03113 3365 81cfd10256b7e445764678c7517ba23c ""
+  "Walker_Emmanuel_Resume.aux" 1737396875.59873 193 e1183dbbdf25de25178d05a5d196bc21 "pdflatex"
+  "Walker_Emmanuel_Resume.tex" 1737396873.07496 4922 684b5ec4b85c05567dc479bf9820699b ""
   (generated)
   "Walker_Emmanuel_Resume.aux"
   "Walker_Emmanuel_Resume.log"
-  "Walker_Emmanuel_Resume.out"
   "Walker_Emmanuel_Resume.pdf"
   (rewritten before read)
