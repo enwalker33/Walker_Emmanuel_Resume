@@ -1,0 +1,94 @@
+\documentclass[letter,10pt]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{titlesec,lipsum}
+\usepackage{hyperref}
+\usepackage{paracol}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    filecolor=black
+}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\large\bfseries}{}{0em}{}
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Emmanuel Walker}} \\
+    \vspace{2mm}
+    \href{mailto:emmanuel.walker@example.com}{emmanuel.walker@example.com} \hfill
+    \href{tel:+1234567890}{+1 234 567 890} \hfill
+    \href{https://www.linkedin.com/in/emmanuelwalker}{linkedin.com/in/emmanuelwalker} \\
+    \vspace{4mm}
+       {\phantomsection{Systems Security Architect}}\\
+   
+\end{center}
+
+\section*{Summary}
+Experienced Systems Security Architect with over 10 years of experience in designing and implementing security solutions to protect enterprise systems and data. Proven expertise in risk assessment, vulnerability management, and compliance with industry standards.
+\begin{paracol}{2}
+\begin{leftcolumn}
+\section*{Experience}
+
+\subsection*{Senior Systems Security Architect}
+\textit{Tech Solutions Inc.} \hfill \textbf{2018 - Present}
+\begin{itemize}[leftmargin=0.15in]
+    \item Designed and implemented security architectures for cloud-based and on-premises systems.
+    \item Conducted risk assessments and vulnerability analyses to identify and mitigate security risks.
+    \item Led a team of security engineers to develop and deploy security solutions.
+    \item Ensured compliance with industry standards such as ISO 27001, NIST, and GDPR.
+\end{itemize}
+
+\subsection*{Systems Security Engineer}
+\textit{SecureNet Corp.} \hfill \textbf{2013 - 2018}
+\begin{itemize}[leftmargin=0.15in]
+    \item Developed and maintained security policies and procedures.
+    \item Performed regular security audits and penetration testing.
+    \item Implemented encryption and access control mechanisms to protect sensitive data.
+    \item Collaborated with IT teams to integrate security measures into system designs.
+\end{itemize}
+
+
+\end{leftcolumn}
+\begin{rightcolumn}
+
+\section*{Skills}
+\subsection*{Technical Skills}
+\begin{itemize}
+    \item Network Security
+    \item Cryptography
+    \item Penetration Testing
+    \item Incident Response
+\end{itemize}
+
+\subsection*{Soft Skills}
+\begin{itemize}
+    \item Problem Solving
+    \item Communication
+    \item Team Leadership
+    \item Time Management
+\end{itemize}
+
+\section*{Certifications}
+\begin{itemize}[leftmargin=0.15in]
+    \item PenTest + (CompTIA)
+    \item Security + (CompTIA)
+\end{itemize}
+
+\end{rightcolumn}
+\end{paracol}
+
+\section*{Education}
+\begin{tabular}{@{}l@{\hspace{2cm}}r@{}}
+    \textbf{Bachelor of Science in Business Administration} & \textsc{concentration:} \textbf{Information Systems} \\
+\textit{Colorado State University} & \textbf{2016 - 2020}
+\end{tabular}
+
+
+\end{document}
