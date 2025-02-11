@@ -1,131 +1,128 @@
-\documentclass[letterpaper,10pt]{article}
-\usepackage{geometry}
-\geometry{margin=1in}
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
 \usepackage{enumitem}
-\usepackage{titlesec,lipsum}
+\usepackage{titlesec}
 \usepackage{hyperref}
-\usepackage{bookmark}
-\usepackage{paracol}
+\usepackage{tasks}
 \usepackage{multicol}
 
-\hypersetup{
+% Configure href boxed bod coloring 
+\hypersetup{ 
     colorlinks=true,
     linkcolor=black,
     urlcolor=black,
     citecolor=black,
     filecolor=black
 }
-
+% Formatting sections
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
-\titleformat{\subsection}{\bfseries}{}{0em}{}
-\titleformat{\subsubsection}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
 \begin{document}
 
 \begin{center}
-    {\LARGE \textbf{Emmanuel Walker}} \\
-    \vspace{2mm}
-    \href{mailto:emmanuel.walker@example.com}{emmanuel.walker@example.com} \hfill
-    \href{tel:+1234567890}{+1 234 567 890} \hfill
-    \href{https://www.linkedin.com/in/emmanuelwalker}{linkedin.com/in/emmanuelwalker} \\
-    \vspace{2mm}
-       {\phantomsection{\LARGE {Systems Engineer}}}\\
-   
+    {\LARGE Emmanuel Walker} \\[5pt]
+    \href{mailto:walkeremmanuel33@gmail.com}{walkeremmanuel33@gmail.com} | (719) 453-9549 | Mundelein, IL | \href{https://linkedin.com/in/enwalker33}{LinkedIn.com/in/enwalker33}
 \end{center}
 
-\section*{Summary}
-System Engineer with dedicated experience in the Aerospace and Defense industry. 
-Proficient in Linux and Windows operating systems, experience with networked systems,
-with strong communication skills for conveying technical information and collaborating 
-effectively within diverse teams. He is experienced in conducting scenario, functional, 
-and regression testing, as well as requirements verification and validation. 
-\begin{paracol}{2}
-\begin{leftcolumn}
-\section*{Experience}
+\section{Summary}
+Seeking Technology Assets Coordinator role with 5 years of experience in hardware support and systems administration. Proficient in utilizing Microsoft Teams for collaboration and managing ticketing systems to resolve technical issues efficiently. Strong background in system testing and security, ensuring optimal performance and compliance with industry standards.
 
-\subsection*{Test Engineer}
-\textit{Northrop Grumman} \hfill \textbf{8 months}\\\vspace{2mm}
-\sloppy
-Took on the role of Test Engineer to develop and execute test plans for system verification and validation. \\
-\begin{itemize}[leftmargin=0.10in]
-    \item Designed test procedure for PCB circuit assembly.
-    \item Conducted system verification analyses to validate across customer specification requirements
-    \item Ensured compliance with industry standards such as ISO 27001, NIST, and GDPR.
+\section{Work Experience}
+
+\subsection{Northrop Grumman}
+\textbf{Test Engineer} \hfill \textit{Jan 2024 - Oct 2024}  
+\begin{itemize}[leftmargin=*]
+    \item Developed test procedures for PCB circuit assemblies, ensuring alignment with engineering specifications and quality standards.
+    \item Conducted comprehensive system specification verification analyses to validate compliance with customer requirements.
 \end{itemize}
 
-\subsection*{Systems Engineer}
-\textit{Northrop Grumman} \hfill \textbf{1 year 3 months}\\\vspace{2mm}
-\sloppy
-Utilized critical thinking to analyze problems, evaluate solutions, and make informed decisions as an Associate System Engineer in Testing. \\
-\begin{itemize}[leftmargin=0.10in]
-    \item Led a team of engineers to develop hardware tests and full systems tests on deployed on Linux and Windows OS's.
+\textbf{Systems Test Engineer} \hfill \textit{Aug 2022 - Jan 2024}  
+\begin{itemize}[leftmargin=*]
+    \item Led a team of engineers to execute component and full systems tests on Linux and Windows platforms.
     \item Developed and maintained test scenarios and procedures for security testing and auditing.
-    \item Implemented encryption and access control mechanisms to protect sensitive data.
-    \item Collaborated with Engineering teams to integrate security measures into system test procedure.
+    \item Collaborated with engineering teams to integrate security measures into Test Readiness Review presentations.
 \end{itemize}
 
-\subsection*{Associate Systems Administrator}
-\textit{Inpriva, Inc} \hfill \textbf{1 year 1 month}\\ \vspace{2mm}
-\sloppy
-Began working part-time as a help-desk intern during fall of my final year of my bachelors. 
-Then was brought on full-time to contribute to the systems development team. \\
-\begin{itemize}[leftmargin=0.10in]
-    \item Utilized SPLUNK SIEM to monitor and analyze system logs for security threats as well as, create dashboards for system performance with SplunkQL.
-    \item Maintained Active Directory, DNS, DHCP, Group Policy Objects, and Ngnix Server with Linux OS for web hosting.
-    \item Analyzed, communicated, and resolved technical issues for internal and external customers.
+\subsection{Aston Carter}
+\textbf{Financial Service Representative} \hfill \textit{Mar 2022 - Aug 2022}  
+\begin{itemize}[leftmargin=*]
+    \item Facilitated services related to 529 college savings plans, retirement accounts, and life insurance, enhancing client understanding of financial products.
+    \item Analyzed financial data to provide clients with clear insights, aiding in informed decision-making.
+    \item Communicated complex financial information effectively, contributing to improved client financial literacy and satisfaction.
 \end{itemize}
 
-
-\end{leftcolumn}
-\begin{rightcolumn}
-
-\section*{Certifications}
-\begin{itemize}[leftmargin=0.15in]
-    \item Security + (CompTIA)
-\end{itemize}
-\section*{Skills}
-\begin{multicols}{2}
-    \subsection*{Technical Skills}
-\begin{itemize}
-    \item Test Methodologies
-    \item Test Scripts 
-    \item Manual Testing
-    \item Functional Testing
+\subsection{AT\&T}
+\textbf{Sales Consultant} \hfill \textit{Nov 2020 - Dec 2021}  
+\begin{itemize}[leftmargin=*]
+    \item Facilitated customer retention by effectively communicating product value and fostering strong client relationships.
+    \item Enhanced customer satisfaction and loyalty through personalized engagement and relationship-building strategies.
 \end{itemize}
 
-\subsection*{Soft Skills}
-\begin{itemize}
-    \item Problem Solving
-    \item Communication
-    \item Organization
-    \item Time Management
+\subsection{Inpriva, Inc}
+\textbf{System Administrator} \hfill \textit{Aug 2019 - Oct 2020}  
+\begin{itemize}[leftmargin=*]
+    \item Utilized Splunk SIEM to monitor and analyze system logs for security threats and developed dashboards for system performance using SplunkQL.
+    \item Managed and maintained Active Directory, DNS, DHCP, Group Policy Objects, and Nginx Server on Linux OS for web hosting, while analyzing, communicating, and resolving technical issues for internal and external customers.
 \end{itemize}
 
-\end{multicols}
-
-\section*{Relevant Coursework}
-\begin{itemize}[leftmargin=0.15in]
-    \item Data Structures and Algorithms
-    \item Database Management Systems
-    \item Network Security
-    \item Software Engineering
-    \item Information Systems Analysis and Design
+\subsection{Cold Start Rentals, LLC}
+\textbf{Owner} \hfill \textit{2022 - 2024}  
+\begin{itemize}[leftmargin=*]
+    \item Spearheaded the establishment and strategic growth of Cold Start Rentals, LLC, overseeing all aspects of business operations including financial management, marketing, client relations, and service delivery to drive company success and profitability.
 \end{itemize}
-\section*{Additional Experience}
-\subsection*{Financial Services Representative}
-\textit{Aston Carter} \hfill \textbf{1 year 1 month}\\ \vspace{2mm}
-\sloppy
-\begin{itemize}[leftmargin=0.10in]
-    \item Facilitated services pertaing to 529 college savings plans, retirement accounts, and life insurance while working towards SIE License.
-    \item Analyzed and communicated financial information to clients to help them make informed decisions.
-\end{itemize}
-\end{rightcolumn}
-\end{paracol}
 
 \section*{Education}
 \begin{tabular}{@{}l@{\hspace{2cm}}r@{}}
     \textbf{Bachelor of Science in Business Administration} & \textsc{concentration:} \textbf{Information Systems} \\
 \textit{Colorado State University} & \textbf{2016 - 2020}
 \end{tabular}
+\section{Certifications}
+\textbf{CompTIA Security+ CE} \hfill \textit{Feb 2023}
 
+\section{Skills}
+
+\begin{multicols}{5}
+\begin{itemize}
+     \item DOD Test Methodologies
+    \item Test Scripts Development and Execution
+    \item Test Scenarios
+    \item Product Design Reviews
+    \item Test Plan Development
+    \item Manual Testing
+\end{itemize}
+\begin{itemize}
+     \item Automation Test
+     \item Black Box Testing
+    \item Regression Testing
+    \item Functional Testing
+    \item System Testing
+    
+\end{itemize}
+\begin{itemize}
+    \item Problem Solving
+    \item Organization
+    \item Communication
+    \item Strong Interpersonal Abilities
+    \item Time Management
+\end{itemize}
+\begin{itemize}
+    \item HTML5/CSS
+    \item JavaScript
+    \item TypeScript
+    \item ReactJS
+    \item Node.js 
+    \item Java
+    \item SQL
+\end{itemize}
+\begin{itemize}
+     \item Linux
+    \item Microsoft 
+    \item SAS
+    \item SAP
+    \item SIEM 
+    \item IT Security Operation
+\end{itemize}
+\end{multicols}
 
 \end{document}
